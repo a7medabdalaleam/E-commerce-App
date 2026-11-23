@@ -1,4 +1,4 @@
 module.exports = async (req, res) => {
-  const { reqHandler } = await import('../dist/fresh-ecommerce/server/server.mjs');
+  const { reqHandler } = await import('../dist/e-commerce/server/server.mjs');
   return reqHandler(req, res);
 };

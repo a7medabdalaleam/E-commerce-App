@@ -3,7 +3,7 @@
   "outputDirectory": "dist/fresh-ecommerce/browser",
   "functions": {
     "api/index.js": {
-      "includeFiles": "dist/fresh-ecommerce/**"
+      "includeFiles": "dist/e-commerce/**"
     }
   },
   "rewrites": [{ "source": "/(.*)", "destination": "/api/index.js" }]
