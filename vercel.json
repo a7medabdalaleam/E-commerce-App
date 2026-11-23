@@ -1,6 +1,6 @@
 {
   "buildCommand": "ng build",
-  "outputDirectory": "dist/fresh-ecommerce/browser",
+  "outputDirectory": "dist/e-commerce/browser",
   "functions": {
     "api/index.js": {
       "includeFiles": "dist/e-commerce/**"
