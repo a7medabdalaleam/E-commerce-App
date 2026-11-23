@@ -2,9 +2,9 @@
   "buildCommand": "ng build",
   "outputDirectory": "dist/YOUR_PROJECT_NAME/browser",
   "functions": {
-    "api/index.mjs": {
+    "api/index.js": {
       "includeFiles": "dist/YOUR_PROJECT_NAME/**"
     }
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/index.mjs" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/index.js" }]
 }
