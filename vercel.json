@@ -1,9 +1,9 @@
 {
   "buildCommand": "ng build",
-  "outputDirectory": "dist/YOUR_PROJECT_NAME/browser",
+  "outputDirectory": "dist/fresh-ecommerce/browser",
   "functions": {
     "api/index.js": {
-      "includeFiles": "dist/YOUR_PROJECT_NAME/**"
+      "includeFiles": "dist/fresh-ecommerce/**"
     }
   },
   "rewrites": [{ "source": "/(.*)", "destination": "/api/index.js" }]
